@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Cbuddy" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar">
+        <item name="android:background">#cccccc</item>
+        <item name="android:tileMode">repeat</item>
+        <item name="android:backgroundSplit">@drawable/bg</item>
+        <item name="android:height">@dimen/ab_height</item>
+    </style>
+</resources>
